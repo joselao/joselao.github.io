@@ -1,0 +1,104 @@
+/* General Colors */
+body {
+	background-color: #000000;
+	color: #313131;
+}
+
+a:link, a:visited {
+	color: #FF7F00;
+}
+
+a:hover, a:active {
+	color: #CC6500;
+}
+
+
+/* Site Title and Slogan */
+h1#site_title {
+	color: #000000;
+	border-bottom: 1px solid #000000;
+}
+
+h2#site_slogan {
+	color: #000000;
+}
+
+#scroll_down_button {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+#scroll_up_button {
+	background-color: #313131;
+	color: #FFFFFF;
+}
+
+/* Navigation Colors */
+nav#top_navigation #current,
+nav#top_navigation a:hover,
+nav#top_navigation .currentAncestor {
+	background-color: #FF7F00;
+	color: #FFFFFF;
+}
+
+nav#top_navigation ul li a,
+nav#top_navigation ul li a:visited {
+	color: #FFFFFF;
+}
+
+#sub_navigation_bar {
+	background-color: #F7F7F7;
+}
+
+nav#sub_navigation ul li a,
+nav#sub_navigation ul li a:visited {
+	color: #7E7E7E;
+}
+
+nav#sub_navigation #current,
+nav#sub_navigation a:hover {
+	background-color: #E1E1E1;
+	color: #313131;
+}
+
+#mobile_navigation_toggle {
+	background-color: #FF7F00;
+	color: #FFFFFF;
+}
+
+
+
+/* Blog Colors */
+#sidebar ul.blog-tag-cloud li a,
+#sidebar ul.blog-tag-cloud li a:visited {
+	background-color: #FF7F00;
+	color: #000000;
+}
+
+#sidebar ul.blog-tag-cloud li a:hover,
+#sidebar ul.blog-tag-cloud li a:active {
+	background-color: #CC6500;
+}
+
+
+/* Photo Album */
+.photo-background {
+	background-color: #000000;	
+}
+
+
+
+/* Form Elements */
+.form-input-field:focus {
+  border-color: #FF7F00;
+} 
+
+.form-input-button {
+  background-color: #000000;
+}
+
+.form-input-button:hover {
+  border-color: #FF7F00;
+  background-color: #FF7F00;
+  color: #000000;
+}
